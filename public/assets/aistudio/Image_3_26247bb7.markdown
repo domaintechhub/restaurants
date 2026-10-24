@@ -1,0 +1,252 @@
+---
+name: Warm Culinary Editorial
+colors:
+  surface: '#fff8f5'
+  surface-dim: '#e0d8d5'
+  surface-bright: '#fff8f5'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#faf2ee'
+  surface-container: '#f4ece8'
+  surface-container-high: '#eee7e3'
+  surface-container-highest: '#e9e1dd'
+  on-surface: '#1e1b19'
+  on-surface-variant: '#59413c'
+  inverse-surface: '#33302d'
+  inverse-on-surface: '#f7efeb'
+  outline: '#8c716a'
+  outline-variant: '#e0bfb7'
+  surface-tint: '#ab3516'
+  primary: '#a83213'
+  on-primary: '#ffffff'
+  primary-container: '#ca4a2a'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffb4a2'
+  secondary: '#855300'
+  on-secondary: '#ffffff'
+  secondary-container: '#fea619'
+  on-secondary-container: '#684000'
+  tertiary: '#984300'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#bb5810'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdad2'
+  primary-fixed-dim: '#ffb4a2'
+  on-primary-fixed: '#3c0700'
+  on-primary-fixed-variant: '#891d00'
+  secondary-fixed: '#ffddb8'
+  secondary-fixed-dim: '#ffb95f'
+  on-secondary-fixed: '#2a1700'
+  on-secondary-fixed-variant: '#653e00'
+  tertiary-fixed: '#ffdbca'
+  tertiary-fixed-dim: '#ffb68e'
+  on-tertiary-fixed: '#331200'
+  on-tertiary-fixed-variant: '#763300'
+  background: '#fff8f5'
+  on-background: '#1e1b19'
+  surface-variant: '#e9e1dd'
+  background-ivory: '#FDFBF7'
+  surface-card: '#FFFFFF'
+  surface-tinted: '#F7F2EA'
+  border-subtle: '#EDE5D8'
+  badge-sage: '#2E7D32'
+  text-muted: '#78716C'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 52px
+    fontWeight: '700'
+    lineHeight: 60px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 34px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: 0em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-caps:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 0.75rem
+  margin: 3rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system embodies an elevated editorial food and beverage discovery platform, capturing the cosmopolitan spirit, warmth, and culinary vibrancy of urban dining destinations. Drawing inspiration from high-end gastronomic journals combined with modern booking ergonomics, the aesthetic marries sensory culinary storytelling with seamless digital utility.
+
+### Brand Personality & Emotional Tone
+- **Warm & Convivial:** Evoking aromatic kitchens, terracotta tiles, spice bazaars, and sun-drenched terrace lunches.
+- **Curated & Authoritative:** Instilling trust through editorial clarity, discerning food criticism, and structured culinary guides.
+- **Effortless & Tactile:** Providing responsive, frictionless booking and filtering flows reminiscent of world-class hospitality tools.
+
+### Design Movement
+- **Warm Editorial Modernism:** A hybrid aesthetic combining editorial serif typography, sun-warmed organic accents, pill-form interactive chips, and creamy ivory backgrounds that eliminate sterile cold whites in favor of comfortable reading surfaces.
+
+## Colors
+
+The palette draws directly from roasted spices, baked earthenware, and evening golden hours. 
+
+- **Primary (`#E05A38` - Terracotta):** Anchors primary call-to-actions, booking reservation buttons, and active interactive indicators.
+- **Secondary (`#F59E0B` - Deep Saffron Amber):** Highlights ratings, curated badge markers, and featured highlights.
+- **Tertiary (`#B45309` - Rich Spiced Cinnamon):** Accents culinary tags, category headers, and editorial subtext.
+- **Neutral (`#1C1917` - Deep Espresso Charcoal):** Delivers contrast against warm surfaces, ensuring maximum legibility across editorial titles and UI elements.
+
+### Surface Hierarchy
+Surfaces are tiered on a warm continuum: the default canvas sits on `background-ivory` (`#FDFBF7`), while interactive and media cards rest on `surface-card` (`#FFFFFF`) with borders framed in `border-subtle` (`#EDE5D8`) to maintain visual comfort without stark digital grayness.
+
+## Typography
+
+The typographical strategy pairs a transitional high-contrast serif (**Playfair Display**) for headlines with a clean, geometric humanist sans-serif (**Plus Jakarta Sans**) for operational UI, metadata, and body reading.
+
+- **Editorial Headings:** Use `Playfair Display` for collection titles, neighborhood guides, and venue names to evoke a culinary magazine aesthetic.
+- **Interface & Operational Text:** `Plus Jakarta Sans` delivers rapid scanning speed across multi-attribute restaurant cards, filter chips, time slots, and pricing details.
+- **Micro-labels & Badges:** `label-caps` provides uppercase legibility for tags like `ROOFTOP`, `FINE DINING`, or `PRICE TIER`.
+
+## Layout & Spacing
+
+The layout is built upon a responsive 12-column grid system (collapsing to 8 columns on tablet and 4 columns on mobile), maintaining generous horizontal gutters to let photography breathe.
+
+- **Breakpoints:**
+  - Mobile: `< 640px` (4 columns, `margin-mobile: 1rem`, single-column card flows with horizontal swipe carousels).
+  - Tablet: `640px â€“ 1024px` (8 columns, 2â€“3 cards per row).
+  - Desktop: `L
+LˆÛÛ[[œËX^ÛÛZ[™\ˆÚYLŽXØ\™ÜšYÈ\ˆ\ØÛÝ™\žHÚ[ŠK‚‚‹H
+Š•™\XØ[š]NŠŠˆˆHÙXÝ[ÛœÈ\™H\][Û™Y\Ú[™ÈÜXÙK^
+
+HÈ™[X
+
+HÈÙ\\˜]H[™\[™[™ZYÚ›ÜšÛÙÚ[™\È[™Ý[[˜\žH[Y\Ë‚ˆHØ\™[\š[ÜœÈ\ÙHÛÛ\XÝÜXÙK\ÛX[™ÜXÙK[YY[™ÜÈÈÙY\Üš]XØ[›ÛÚÚ[™È]HX›Ý™HH›Û‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‚•\ÈÞ\Ý[H]›ÚYÈÞ[]XÈÜ˜^H›ÜÚYÝÜËÜ[™È[œÝXY›ÜˆØ\›K[XšY[YÚ[Ù[[™È[œÜ\™YžH˜]\˜[Ý[›YÚ‚‚‹H
+Š˜\ÙHØ\™È	ˆ[Ù[\ÎŠŠˆÜ›Ý[™YÚ]H˜Z[[Y›Ü™\ˆ
+\ÛÛYÑQMQ
+HZ\™YÚ][ˆ[XšY[Ø\›]›ÜˆŒLœ™Ø˜JŒÌLŒJX‚‹H
+ŠØ\™Ý™\ˆ	ˆ›Ø][™ÈÚ[™\ÎŠŠˆ[]˜]\ÈÛ[ÛÝHÈLœŽM™Ø˜JŒÌLŒLŠXY[™È™\Ý]\˜[Ø\™ÈÝØ\™H\Ù\ˆÚ[HÝXH›ÛÛZ[™ÈÛÝ™\ˆ[XYÙ\È
+ØØ[HKŒŠK‚‹H
+Š”ÙX\˜Ú	ˆ›Ø][™Èš[\ˆ˜\ŽŠŠˆ[Ù[YÚ]ÛÙ\ˆMœÍœMœ™Ø˜JŽKŒËŒ
+XÝ™\ˆ[ˆ]›ÜžH˜[œÛXÙ[œ›ÜÝY˜XÚÙÜ›Ý[™
+™Ø˜JLËLKËŽJXÚ]˜XÚÙ›ÜYš[\Žˆ›\ŠLœ
+X
+K‚‹H
+Š“YYXHÝ™\›^\ÎŠŠˆ[™X\ˆÜ˜YY[ØÜš[\ÈÝ™\ˆ™\Ý]\˜[ÛÝ™\œÈ˜[œÚ][Ûˆœ›ÛH™Ø˜JŽKŒË
+X]HÜÈ™Ø˜JŽKŒËÍJX]H˜\ÙHÈ[œÝ\™H[YÜÈ[™Ý™\›^H]\È™[XZ[ˆYÚX›K‚‚ˆÈÈÚ\\Â‚•HÚ\HÞ\Ý[H]™\˜YÙ\ÈÝXK™Yš[™Y˜YZHÈ˜[[˜ÙH\˜Ú]XÝ\˜[[YØ[˜ÙHÚ][Ù\›ˆYÚ][XÝ[]K‚‚‹H
+Š”™\Ý]\˜[Ø\™È	ˆ[Ù[ÎŠŠˆÝ[™\™^™YÛˆ›Ý[™Y[Ø
+MœÈ\™[JH›Üˆ˜[[˜ÙYœ˜[Z[™ÈÙˆ[\š[Üˆ›ÛÙ[™\˜Ú]XÝ\˜[ÝÜË‚‹H
+Š”ÙX\˜Ú˜\œÈ	ˆš[\ˆÚ\ÎŠŠˆ][^™HÛÛ\]H[Ù[ÛY]žH
+›Ý[™YY[ÈNNN\
+HÈÛÛ[][šXØ]H]ZXÚÈ\Xš[]H[™š[\ˆ\™ÛÛ›ÛZXÜË‚‹H
+Š‘›Ü›H[œ]È	ˆXÝ[Ûˆ]ÛœÎŠŠˆÝ[™\™^™YÛˆ›Ý[™Y
+È\™[JHÈ™Z[™›Ü˜ÙHÝXš[]K™XÚ\Ú[Û‹[™›ÛÚÚ[™È[[‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\žHXÝ[Ûˆ
+›ÛÚÈÈ™\Ù\™JNŠŠˆÛÛY\œ˜XÛÝH
+ÑLPLÎ
+Hš[Ú]H^˜Y]\ËYY][HÙZYÚ\ÙÜ˜\KˆÛˆÝ™\‹ÚYÈÈ\šÙ\ˆÜXÙY\œ˜XÛÝH
+ÐÍŒ˜
+HÚ]HØ\›HÛÝÈÚYÝË‚‹H
+Š”ÙXÛÛ™\žHXÝ[Ûˆ
+^Ü™HÈšY]ÈY[JNŠŠˆ›Ü™\™Y[ˆÑQMQÝ™\ˆÑ‘‘‘‘‘˜Ú]ÌPÌNLMØ^ˆÛˆÝ™\‹ÚYÈÈÑÑŒ‘PX‚‹H
+Š’XÛÛˆ]ÛœÈ
+˜]›Üš]HÈÚ\™JNŠŠˆÚ\˜Ý[\ˆ[Ú]˜[œÛXÙ[]›ÜžH˜XÚÙÜ›Ý[™
+™Ø˜JLËLKËŽJX
+H[™ÝXH›Ü™\‹ÜÚ][Û™Y[ˆHÜ\šYÚÛÜ›™\ˆÙˆ™\Ý]\˜[[XYÙHØ\™Ë‚‚ˆÈÈÈš[\ˆÚ\È	ˆYÜÂ‹H
+Š‘š[\ˆÚ\È
+]ZXÚÈš[\œÊNŠŠˆ[[Ú\KY[™ÈœMLœ›ÛÚ^™Kˆ[œÙ[XÝYˆÑ‘‘‘‘‘˜Ý\™˜XÙHÚ]ÑQMQ›Ü™\ˆ[™ÌPÌNLMØ^ˆÙ[XÝYˆÌPÌNLMØš[Ú]Ñ‘‘‘‘‘˜^Üˆ\œ˜XÛÝHÑLPLÎ[‚‹H
+Š‘™X]\™H˜YÙ\È
+›ÛÙÜZXÚ[[‹][Ë™[™[™ÊNŠŠˆZXÜ›Ë\[È[›™YÝ™\ˆ[XYÙ\ÈÜˆ]\Ë\Ú[™ÈYÚXÛÛ˜\ÝÝXHš[Îˆœ›ÜÝY\šÈÛ\ÜÈ
+™Ø˜JŽKŒËJX
+HÚ]Ú]H^[™\\˜Ø\ÙH˜XÚÚ[™Ë‚‚ˆÈÈÈ™\Ý]\˜[Ø\™Â‹H
+Š’[XYÙHÛÛZ[™\ŽŠŠˆMŽŒL\ÜXÝ˜][ÈÚ]MœÜÛÜ›™\ˆ›Ý[™[™Ë™X]\š[™ÈÝXH›ÛÛHÛˆÝ™\ˆ[™[XYÙHØ\›Ý\Ù[[™XØ]ÜœË‚‹H
+Š“Y]Y]HÝXÚÎŠŠ‚ˆH
+”›ÝÈNŠˆ^Y˜Z\ˆ\Ü^H™\Ý]\˜[]K[Û™ÜÚYHÝ\ˆ˜][™È˜YÙH[ˆØY™œ›Ûˆ[X™\ˆ
+ÑNQL˜
+K‚ˆH
+”›ÝÈŽŠˆ™ZYÚ›ÜšÛÙ
+K™Ë‹•Ù\Ý[™È‹’Ø\™[ˆŠH
+ÈÝZ\Ú[™HYÈ
+K™Ë‹“YY]\œ˜[™X[ˆ‹”ÝØZ[H\Ú[ÛˆŠH[ˆ^[]]Y‚ˆH
+”›ÝÈÎŠˆšXÙHY\ˆ[™XØ]Üˆ
+				Ý[YÚ][˜XÝ]™HÚÙ[œÈ[[YY
+H
+È™^]˜Z[X›H›ÛÚÚ[™È[YH]Û‹‚‚ˆÈÈÈÙX\˜Ú	ˆ\ØÛÝ™\žH˜\‚‹H›ÛZ[™[Û[šK\ÙX\˜ÚÛÛZ[™\ˆ™X]\š[™ÈHÜ]^[Ý]ˆ
+Šˆ•Ú\™HŠŠˆ
+™ZYÚ›ÜšÛÙÐ\™XJK
+Šˆ•Ú]ŠŠˆ
+ÝZ\Ú[™KÕšX™JK[™
+Šˆ•Ú[ˆŠŠˆ
+]KÕ[YJKÙ\\˜]YžHš[™HÑQMQ™\XØ[]šY\œË[™[™ÈÚ]H\œ˜XÛÝHÚ\˜Ý[\ˆÙX\˜Ú]Û‹‚‚ˆÈÈÈ›Ü›H[œ]È	ˆÙ[XÝÜœÂ‹H˜XÚÙÜ›Ý[™Ñ‘‘‘‘‘˜›Ü™\ˆ\ÛÛYÑQMQ˜Y]\ËˆXÝ]™H›ØÝ\ÈÝÚ]Ú\ÈÈHK\›Ü™\ˆ[ˆÑLPLÎXØÛÛ\[šYYžHHØ\›HÜš[™È
+™Ø˜JŒLM‹ŒMJX
+K

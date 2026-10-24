@@ -1,0 +1,6 @@
+{
+  "name": "Terra & Hearth | Culinary Editorial & Discovery",
+  "description": "An elevated gastronomic editorial platform and seamless restaurant reservation experience celebrating wood-fired kitchens, natural wine cellars, and urban dining destinations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
